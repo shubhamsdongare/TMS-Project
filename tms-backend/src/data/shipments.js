@@ -1,0 +1,65 @@
+module.exports = [
+  {
+    id: "1",
+    origin: "Mumbai",
+    destination: "Delhi",
+    status: "In Transit",
+    carrier: "DHL",
+    vehicle: "Truck",
+    weight: 120,
+    cost: 5000,
+    eta: "2 Days",
+    date: "2025-01-10",
+    priority: "High"
+  },
+  {
+    id: "2",
+    origin: "Pune",
+    destination: "Bangalore",
+    status: "Delivered",
+    carrier: "FedEx",
+    vehicle: "Container",
+    weight: 90,
+    cost: 4200,
+    eta: "Delivered",
+    date: "2025-01-12",
+    priority: "Medium"
+  },
+  {
+    id: "3",
+    origin: "Ahilyanagar",
+    destination: "Sangamner",
+    status: "In Transit",
+    carrier: "DHL",
+    vehicle: "Truck",
+    weight: 120,
+    cost: 1000,
+    eta: "1 Days",
+    date: "2025-01-24",
+    priority: "High"
+  },{
+    id: "4",
+    origin: "SAngamner",
+    destination: "Mumbai",
+    status: "In Transit",
+    carrier: "DHL",
+    vehicle: "Truck",
+    weight: 520,
+    cost: 8000,
+    eta: "2 Days",
+    date: "2025-01-26",
+    priority: "High"
+  },{
+    id: "5",
+    origin: "Mumbai",
+    destination: "Nashik",
+    status: "In Transit",
+    carrier: "DHL",
+    vehicle: "Truck",
+    weight: 820,
+    cost: 15000,
+    eta: "1 Days",
+    date: "2025-01-27",
+    priority: "High"
+  },
+];
