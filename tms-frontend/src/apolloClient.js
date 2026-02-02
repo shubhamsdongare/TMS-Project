@@ -9,8 +9,8 @@ import { onError } from "@apollo/client/link/error";
 
 // connction
     const httpLink = createHttpLink({
-  // uri: "http://localhost:4000/graphql"
-  uri: "https://tms-project-jpdu.onrender.com"
+  uri: "http://localhost:4000/graphql"
+  // uri: "https://tms-project-jpdu.onrender.com"
 
 });
 
