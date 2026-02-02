@@ -9,7 +9,7 @@ export default function TopNav({ view, setView }) {
           TMS
         </h1>
 
-        <nav className="hidden md:flex space-x-6 text-slate-700 font-medium">
+        <nav className="hidden md:flex space-x-6 text-slate-300 font-medium">
           <span className="cursor-pointer hover:text-blue-600">
             Dashboard
           </span>
