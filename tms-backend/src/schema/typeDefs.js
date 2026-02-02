@@ -20,11 +20,6 @@ module.exports = gql`
       page: Int
       limit: Int
       sortBy: String
-
-      # 🔹 ADDED FILTERS
-      status: String
-      carrier: String
-      priority: String
     ): [Shipment]
 
     shipment(id: ID!): Shipment
