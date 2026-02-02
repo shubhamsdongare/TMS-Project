@@ -7,13 +7,14 @@ import ShipmentModal from "./components/ShipmentModal";
 import TileCard from "./components/TileCard";
 import Sidebar from './components/Sidebar';
 import TopNav from './components/TopNav';
+import "./index.css"; 
 
 // fetch data
 const GET_SHIPMENTS = gql`
   query GetShipments {
     shipments {
       id
-      origin
+      origin  
       destination
       status
       carrier
@@ -51,7 +52,7 @@ export default function App() {
     <div
       className="min-h-screen font-sans bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('/1.jpg')" }}
-    >
+    > 
 
       <Sidebar className="w-64 fixed h-full" />
 
@@ -61,7 +62,7 @@ export default function App() {
       <div className="p-6 max-w-7xl mx-auto">
         <div className=" mb-6 rounded-2xl bg-white/80 backdrop-blur-md mt-16 shadow-lg p-6">
           <h1 className="text-3xl text-center font-bold text-gray-900">
-            Transportation Management System (TMS)
+            Transportation Management Syste (TMS)
           </h1>
 
           
