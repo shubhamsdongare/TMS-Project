@@ -53,7 +53,7 @@ export default function TileCard({ shipment, onSelect }) {
         </div>
       )}
 
-      {/* Tile Content (necessary fields only) */}
+      {/* tile content */}
       <h3 className="text-lg font-semibold mb-2">
         Shipment #{shipment.id}
       </h3>

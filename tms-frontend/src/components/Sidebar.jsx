@@ -16,7 +16,7 @@ export default function Sidebar() {
         <Menu size={22} />
       </button>
 
-      {/* overlay */}
+      {/* overlayout */}
       {open && (
         <div
           onClick={() => setOpen(false)}
